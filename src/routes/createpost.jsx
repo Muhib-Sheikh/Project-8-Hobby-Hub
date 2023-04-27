@@ -39,7 +39,7 @@ const CreatePost = () => {
       <form className="create_form">
         <h3 className="form_title">Create a New Post</h3>
         <div className="form_item">
-          <label>Post Title</label> <span className="form_tag">(Required)</span>{" "}
+          <label>Title</label> <span className="form_tag">(Required)</span>{" "}
           <br />
           <input
             className="textbox"
@@ -52,7 +52,7 @@ const CreatePost = () => {
           />
         </div>
         <div className="form_item">
-          <label>Post Content</label>
+          <label>Content</label>
           <br />
           <textarea
             className="post_content_input"
